@@ -132,14 +132,18 @@ public class Craps extends JApplet implements ActionListener{
 		if(gameStatus == CONTINUE){
 			showStatus("Roll Again");
 		}
-		else if (gameStatus == WON){
-			showStatus("Player Wins. " + "Click Roll Dice to play again.");
-		}
-		else{
-			showStatus("Player loses. " + "Click Roll Dice to play again.");
-		}
 		
-		//next roll is first roll of new game
-		firstRoll = true;
+		//game won or lost
+		else { 
+			if (gameStatus == WON){
+			showStatus("Player Wins. " + "Click Roll Dice to play again.");
+			}
+			else {
+			showStatus("Player loses. " + "Click Roll Dice to play again.");
+			}
+				
+			//next roll is first roll of new game
+			firstRoll = true;
+			}
 	}
 }
