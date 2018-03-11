@@ -40,7 +40,7 @@ public class RoundFloor extends JApplet implements ActionListener {
 	//obtain user input and call method to round number
 	public void actionPerformed(ActionEvent e){
 		double originalNumber, roundedNumber;
-		originalNumber = Double.parseDouble(enterNumberField.getText());
+		originalNumber = Double.parseDouble(e.getActionCommand());
 	
 		//calculates users parkering charge
 		roundedNumber = roundNumber(originalNumber);
