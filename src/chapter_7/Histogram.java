@@ -15,7 +15,7 @@ public class Histogram {
 		
 		String output = "Element\tValue\tHistogram";
 		
-		//for each elemen in array oupup a bar in histogram
+		//for each element in array oupup a bar in histogram
 		for(int counter = 0; counter < array.length; counter++){
 			output += "\n" + counter + "\t" + array[counter] + "\t";
 			for(int stars = 0; stars <= array[counter]; stars++){
