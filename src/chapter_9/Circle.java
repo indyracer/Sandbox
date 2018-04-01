@@ -24,7 +24,7 @@ public class Circle extends Point{ //inherits from Point
 	
 	//set radius of Circle
 	public void setRadius(double circleRadius){
-		radius = (circleRadius) >= 0.0 ? circleRadius : 0.0;
+		radius = (circleRadius >= 0.0 ? circleRadius : 0.0);
 	}
 	
 	//get radius of circle
