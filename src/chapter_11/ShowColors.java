@@ -15,7 +15,7 @@ public class ShowColors extends JFrame {
 	public ShowColors(){
 		super("Using colors");
 		
-		setSize(400, 130);
+		setSize(431, 240);
 		setVisible(true);
 	}
 	
