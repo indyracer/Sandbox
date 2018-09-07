@@ -22,7 +22,7 @@ public class MouseDetails extends JFrame{
 	}
 	
 	//draw String at location where mouse was clicked
-	public void point(Graphics g){
+	public void paint(Graphics g){
 		//call superclass paint method
 		super.paint(g);
 		g.drawString("Clicked @ [" + xPos + ", " + yPos + "]", xPos, yPos);
