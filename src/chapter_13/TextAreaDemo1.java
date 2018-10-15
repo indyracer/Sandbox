@@ -1,4 +1,4 @@
-package chapter_13_R1;
+package chapter_13;
 
 /*
  * How to program Java
